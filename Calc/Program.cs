@@ -6,28 +6,6 @@ using System.Threading.Tasks;
 
 namespace Calc
 {
-    public class Calculator
-    {
-        public double Add(double a, double b)
-        {
-            return a + b;
-        }
-
-        public double Substract(double a, double b)
-        {
-            return a - b;
-        }
-
-        public double Multiply(double a, double b)
-        {
-            return a * b;
-        }
-
-        public double Divide(double a, double b)
-        {
-            return a / b;
-        }
-    }
     class Program
     {
         static void Main(string[] args)
