@@ -10,8 +10,7 @@ namespace Calc.Tests
         {
             var calculator = new Calculator();
             var result = calculator.Add(10, 15);
-
-            Assert.AreEqual<double>(25, result);
+            Assert.AreEqual(25, result);
         }
 
         [TestMethod()]
@@ -20,7 +19,7 @@ namespace Calc.Tests
             var calculator = new Calculator();
             var result = calculator.Substract(10, 15);
 
-            Assert.AreEqual<double>(-5, result);
+            Assert.AreEqual(-5, result);
         }
 
         [TestMethod()]
@@ -29,7 +28,7 @@ namespace Calc.Tests
             var calculator = new Calculator();
             var result = calculator.Multiply(10, 15);
 
-            Assert.AreEqual<double>(150, result);
+            Assert.AreEqual(150, result);
         }
 
         [TestMethod()]
@@ -38,7 +37,7 @@ namespace Calc.Tests
             var calculator = new Calculator();
             var result = calculator.Divide(150, 10);
 
-            Assert.AreEqual<double>(15, result);
+            Assert.AreEqual(15, result);
         }
     }
 }
